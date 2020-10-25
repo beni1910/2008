@@ -15,7 +15,7 @@ import youtube_dl
 # BISA JUGA PAKE LINK CUKUP  #  
 # CUKUP GANTI  MID ADMIN DAN JANGAN MASUKIN TOKENX DISINI 
 # TAPI DI boyfira.json FAHAM GAK FAHAM TERLALU
-# CREATOR BY SELFBOT-BY:MAX 
+# CREATOR BY BOT_STYLE-BY:BENI 
 
 botStart = time.time()
 mulai = time.time()
@@ -432,10 +432,10 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔═════════════════╗" + "\n" + \
-                  "╠  🤖 SELFBOT-BY:MAX 🤖" + "\n" + \
+                  "╠  🤖 BOT_STYLE-BY:BENI 🤖" + "\n" + \
                   "╚═════════════════╝" + "\n" + \
                   "╔═════════════════╗" + "\n" + \
-                  "╠       🤖 MENU SELF 🤖" + "\n" + \
+                  "╠       🤖 MENU BS 🤖" + "\n" + \
                   "╠═════════════════╝" + "\n" + \
                   "╠❂͜͡☬➣ " + key + "Help 1\n" + \
                   "╠❂͜͡☬➣ " + key + "Help 2\n" + \
@@ -482,7 +482,7 @@ def help():
                   "╠❂͜͡☬➣ " + key + "Mykey\n" + \
                   "╠❂͜͡☬➣ " + key + "Resetkey\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠ BY: BOT_STYLE-BY:BENI" + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage
 
@@ -511,7 +511,7 @@ def help1():
                   "╠❂͜͡☬➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂͜͡☬➣ " + key + "Spamcall\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠    BY: BOT_STYLE-BY:BENI" + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage1
 
@@ -565,7 +565,7 @@ def help2():
                   "╠❂͜͡☬➣ " + key + "Listprotect\n" + \
                   "╠❂͜͡☬➣ Ketik「 Refresh 」Jika Sudah\n╠❂͜͡☬➣ Menggunakan Command Diatas...\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠ BY: BOT_STYLE-BY:BENI" + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage2
     
@@ -574,7 +574,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage3 = "╔══════════════════╗" + "\n" + \
-                  "╠  🤖 SELFBOT-BY:MAX 🤖" + "\n" + \
+                  "╠  🤖 BOT_STYLE-BY:BENNI 🤖" + "\n" + \
                   "╚══════════════════╝" + "\n" + \
                   "╔══════════════════╗" + "\n" + \
                   "╠             🤖 BOT 🤖" + "\n" + \
@@ -631,14 +631,14 @@ def helpbot():
                   "╠❂͜͡☬➣ " + key + "Clearban\n" + \
                   "╠❂͜͡☬➣ " + key + "Refresh\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠ BY: BOT_STYLE-BY:BENI" + "\n" + \
                   "╚══════════════════╝"
     return helpMessage3
     
 def infomeme():
     helpMessage4 = """
 ╔══════════════════╗
-╠  🤖 SELFBOT-BY:MAX 🤖
+╠  🤖 BOT_STYLE-BY:BENI 🤖
 ╚══════════════════╝
 ╔══════════════════╗
 ╠    ◄]·✪·List Meme·✪·[►
@@ -672,7 +672,7 @@ def infomeme():
 ╠❂͜͡☬➣ contoh:
 ╠❂͜͡☬➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════╗
-╠    BY: SELFBOT-BY:MAX
+╠ BY: BOT_STYLE-BY:BENI
 ╚══════════════════╝
 """
     return helpMessage4
@@ -3010,7 +3010,7 @@ def bot(op):
                                 xpesan =  "「 UNSEND MESSAGE 」\n❂➣ Pengirim : "
                                 ret_ = "❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
-                                ret_ += "\n❂➣ BY: SELFBOT-BY:MAX"
+                                ret_ += "\n❂➣ BY: BOT_STYLE-BY:BENI"
                                 ry = str(Boy.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -3030,7 +3030,7 @@ def bot(op):
                                 ret_ += "\n❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
                                 ret_ += "\n❂➣Pesannya : {}".format(str(msg_dict[msg_id]["text"]))
-                                ret_ += "\n❂➣ BY: SELFBOT-BY:MAX"
+                                ret_ += "\n❂➣ BY: BOT_STYLE-BY:BENI"
                                 boy.sendMessage(at, str(ret_))
                         del msg_dict[msg_id]
                 except Exception as e:
@@ -3049,7 +3049,7 @@ def bot(op):
                                 ret_ += "❂➣ Pengirim : {}".format(str(Boy.displayName))
                                 ret_ += "\n❂➣ Nama Grup : {}".format(str(ginfo.name))
                                 ret_ += "\n❂➣ Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict1[msg_id]["createdTime"])))
-                                ret_ += "\n❂➣ BY: SELFBOT-BY:MAX"
+                                ret_ += "\n❂➣ BY: BOT_STYLE-BY:BENI"
                                 ret_ += "{}".format(str(msg_dict1[msg_id]["text"]))
                                 boy.sendMessage(at, str(ret_))
                                 boy.sendImage(at, msg_dict1[msg_id]["data"])
@@ -3218,7 +3218,7 @@ def bot(op):
                    ret_ += "\n❂➣ Sticker Version : {}".format(stk_ver)
                    ret_ += "\n❂➣ Sticker Package : {}".format(pkg_id)
                    ret_ += "\n❂➣ Sticker Url : line://shop/detail/{}".format(pkg_id)
-                   ret_ += "\n❂➣ By @Boy-FirA™️"
+                   ret_ += "\n❂➣ By @BENI_230™️"
                    query = int(stk_id)
                    if type(query) == int:
                             data = 'https://stickershop.line-scdn.net/stickershop/v1/sticker/'+str(query)+'/ANDROID/sticker.png'
@@ -3639,7 +3639,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「 Informasi Selfbot 」\n• User : "
+                                xpesan =  "「 Informasi BOT_STYLE 」\n• User : "
                                 ret_ = "• Group : {} Group".format(str(len(grouplist)))
                                 ret_ += "\n• Friend : {} Friend".format(str(len(contactlist)))
                                 ret_ += "\n• Blocked : {} Blocked".format(str(len(blockedlist)))
@@ -3648,7 +3648,7 @@ def bot(op):
                                 ret_ += "\n• Expired : {} - {} - {}".format(str(hr), str(bln), str(thn))
                                 ret_ += "\n• In days : {} again".format(days)
                                 ret_ += "\n「 Speed Respon 」\n• {} detik".format(str(elapsed_time))
-                                ret_ += "\n「 Selfbot Runtime 」\n• {}".format(str(bot))
+                                ret_ += "\n「 BOT_STYLE Runtime 」\n• {}".format(str(bot))
                                 ry = str(ryan.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -4285,7 +4285,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +boy.getContact(m_id).displayName + "\n"
-                                boy.sendMessage(msg.to,"🤖 LIST Admin\n\n🤖 Creator BOT:\n"+ma+"\n🤖 Admin:\n"+mb+"\n🤖 Staff:\n"+mc+"\n🤖 Total「%s」SELFBOT-BY:MAX" %(str(len(owner)+len(admin)+len(staff))))
+                                boy.sendMessage(msg.to,"🤖 LIST Admin\n\n🤖 Creator BOT:\n"+ma+"\n🤖 Admin:\n"+mb+"\n🤖 Staff:\n"+mc+"\n🤖 Total「%s」BOT_STYLE-BY:BENI" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
@@ -5025,18 +5025,18 @@ def bot(op):
                         elif 'Mybottoken' in msg.text:
                           if wait["selfbot"] == True:
                            if msg._from in creator:
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX\n"+boy.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 1\n"+k1.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 2\n"+k2.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 3\n"+k3.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 4\n"+k4.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 5\n"+k5.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 6\n"+k6.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 7\n"+k7.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 8\n"+k8.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 9\n"+k9.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX 10\n"+k10.authToken)
-                               boy.sendMessage(msg.to,"SELFBOT-BY:MAX Ghost\n"+sw.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI\n"+boy.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 1\n"+k1.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 2\n"+k2.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 3\n"+k3.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 4\n"+k4.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 5\n"+k5.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 6\n"+k6.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 7\n"+k7.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 8\n"+k8.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 9\n"+k9.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI 10\n"+k10.authToken)
+                               boy.sendMessage(msg.to,"BOT_STYLE-BY:BENI Ghost\n"+sw.authToken)
 #==============================================================================# 
                        
 
@@ -5957,37 +5957,37 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = boy.findGroupByTicket(ticket_id)
                                      boy.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     boy.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 : %s" % str(group.name))
+                                     boy.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 : %s" % str(group.name))
                                      group1 = k1.findGroupByTicket(ticket_id)
                                      k1.acceptGroupInvitationByTicket(group1.id,ticket_id)
-                                     k1.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 1 : %s" % str(group.name))
+                                     k1.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 1 : %s" % str(group.name))
                                      group2 = k2.findGroupByTicket(ticket_id)
                                      k2.acceptGroupInvitationByTicket(group2.id,ticket_id)
-                                     k2.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 2 : %s" % str(group.name))
+                                     k2.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 2 : %s" % str(group.name))
                                      group3 = k3.findGroupByTicket(ticket_id)
                                      k3.acceptGroupInvitationByTicket(group3.id,ticket_id)
-                                     k3.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 3 : %s" % str(group.name))
+                                     k3.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 3 : %s" % str(group.name))
                                      group4 = k4.findGroupByTicket(ticket_id)
                                      k4.acceptGroupInvitationByTicket(group4.id,ticket_id)
-                                     k4.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 4 : %s" % str(group.name))
+                                     k4.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 4 : %s" % str(group.name))
                                      group5 = k5.findGroupByTicket(ticket_id)
                                      k5.acceptGroupInvitationByTicket(group5.id,ticket_id)
-                                     k5.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 5 : %s" % str(group.name))
+                                     k5.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 5 : %s" % str(group.name))
                                      group6 = k6.findGroupByTicket(ticket_id)
                                      k6.acceptGroupInvitationByTicket(group6.id,ticket_id)
-                                     k6.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 6 : %s" % str(group.name))
+                                     k6.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 6 : %s" % str(group.name))
                                      group7 = k7.findGroupByTicket(ticket_id)
                                      k7.acceptGroupInvitationByTicket(group7.id,ticket_id)
-                                     k7.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 7 : %s" % str(group.name))
+                                     k7.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 7 : %s" % str(group.name))
                                      group8 = k8.findGroupByTicket(ticket_id)
                                      k8.acceptGroupInvitationByTicket(group8.id,ticket_id)
-                                     k8.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 8 : %s" % str(group.name))
+                                     k8.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 8 : %s" % str(group.name))
                                      group9 = k9.findGroupByTicket(ticket_id)
                                      k9.acceptGroupInvitationByTicket(group9.id,ticket_id)
-                                     k9.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 9 : %s" % str(group.name))
+                                     k9.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 9 : %s" % str(group.name))
                                      group10 = k10.findGroupByTicket(ticket_id)
                                      k10.acceptGroupInvitationByTicket(group10.id,ticket_id)
-                                     k10.sendMessage(msg.to, "🤖 SELFBOT-BY:MAX 🤖 10 : %s" % str(group.name))
+                                     k10.sendMessage(msg.to, "🤖 BOT_STYLE-BY:BENI 🤖 10 : %s" % str(group.name))
 
 
     except Exception as error:
